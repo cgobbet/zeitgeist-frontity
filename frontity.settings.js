@@ -2,7 +2,7 @@ const settings = {
   name: "digital-zeitgeist",
   state: {
     frontity: {
-      url: "https://zeitgeist.digital/wp-json/",
+      url: "https://thinking.media/zd/wp-json/",
       title: "Digital Zeitgeist",
       description: "Life read in zeros and ones",
     },
@@ -28,7 +28,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "https://zeitgeist.digital/wp-json/",
+          api: "https://thinking.media/zd/wp-json/",
         },
       },
     },

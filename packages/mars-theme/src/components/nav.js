@@ -28,13 +28,13 @@ const Nav = ({ state }) => (
 export default connect(Nav);
 
 const NavContainer = styled.nav`
-  font-family: 'Avant Garde', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 800;
   list-style: none;
   display: flex;
   width: 848px;
   max-width: 100%;
-  color: #000;
+  color: #4C4B4D;
   box-sizing: border-box;
   padding: 0 24px;
   margin: 0;
@@ -48,7 +48,7 @@ const NavContainer = styled.nav`
 const NavItem = styled.div`
   padding: 0;
   margin: 0 0.7vw;
-  color: #000;
+  color: #4C4B4D;
   font-size: 0.9em;
   box-sizing: border-box;
   flex-shrink: 0;
@@ -56,11 +56,11 @@ const NavItem = styled.div`
   & > a {
     display: inline-block;
     line-height: 2em;
-    border-bottom: 2px solid;
+    border-bottom: 3px solid;
     border-bottom-color: transparent;
     /* Use for semantic approach to style the current link */
     &[aria-current="page"] {
-    border-bottom-color: #000;
+    border-bottom-color: #4C4B4D;
     }
   }
 

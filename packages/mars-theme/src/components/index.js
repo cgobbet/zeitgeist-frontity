@@ -51,6 +51,11 @@ const Theme = ({ state }) => {
 export default connect(Theme);
 
 const globalStyles = css`
+  p {
+    ${'' /* margin-top: 0.35rem;
+    margin-bottom: 0.35rem; */}
+  }
+
   body {
     margin: 0;
     font-family: "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -71,8 +76,8 @@ h1 {
     color: rgb(120,24,32);      
     text-shadow: 0.5px 0.5px 0.5px black;
     font-size: 2em;
-    padding-top: 0.7rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
    }
 `;
 

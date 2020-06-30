@@ -1,0 +1,112 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "58e079ff5ae20f017ac9",
+  "publicPath": "/static/",
+  "outputPath": "/Users/cassiano/Documents/GitHub/general-repos/projects/zeitgeist-frontity/build/static",
+  "assetsByChunkName": {
+    "digital-zeitgeist": [
+      "digital-zeitgeist.module.js",
+      "digital-zeitgeist.75c3092062145cd437b7.hot-update.js"
+    ],
+    "list": "list.module.js"
+  },
+  "assets": [
+    {
+      "name": "75c3092062145cd437b7.hot-update.json",
+      "size": 59,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "digital-zeitgeist.75c3092062145cd437b7.hot-update.js",
+      "size": 25118,
+      "chunks": [
+        "digital-zeitgeist"
+      ],
+      "chunkNames": [
+        "digital-zeitgeist"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "digital-zeitgeist.module.js",
+      "size": 5002861,
+      "chunks": [
+        "digital-zeitgeist"
+      ],
+      "chunkNames": [
+        "digital-zeitgeist"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 47992,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "digital-zeitgeist": {
+      "chunks": [
+        "digital-zeitgeist"
+      ],
+      "assets": [
+        "digital-zeitgeist.module.js",
+        "digital-zeitgeist.75c3092062145cd437b7.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "digital-zeitgeist": {
+      "chunks": [
+        "digital-zeitgeist"
+      ],
+      "assets": [
+        "digital-zeitgeist.module.js",
+        "digital-zeitgeist.75c3092062145cd437b7.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
